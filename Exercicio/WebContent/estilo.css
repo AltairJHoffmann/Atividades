@@ -1,0 +1,182 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+body {background: #666;
+}
+
+#barraSuperior{
+	font-family: times new roman;
+	font-size:72px;
+	color: #fff;
+	height: 175px;
+	width:80%;
+	background:#333333;
+	margin: 0px;
+	position: relative;
+	top: 0px;
+	left:20%;
+}
+
+#menuPrincipal{
+	height: 50px;
+	width:80%;
+	background:#2F4F4F;
+	margin: 0px;
+	position: relative;
+	left:20%;
+	top:-230px;
+}
+
+#logo{
+	position: relative;
+	left:0px;
+	top:-175px;
+	width: 20%;
+	height: 225px;
+}
+
+header {
+
+}
+header ul {
+	 position: relative; display: float; margin:0; padding: 0; list-style: none; width: 100%;
+	
+}
+header ul li{
+	  position: relative; width: 33.3%; float: left; font:16px arial;
+}
+
+header ul li a{
+	font-size:25px; text-align: center; position: relative; color: #9BCD9B; text-decoration: none; display:block; padding:10px;
+
+	}
+	
+	header ul li ul{
+	display: none; position: relative; width: 100%; float: left; font:16px arial;
+
+	}
+	
+	header ul li ul li{
+	position: relative; width: 100%; float: left; font:16px arial;
+
+	}
+	
+	header ul li ul li a{
+	background: #698B69; font-size:25px; text-align: center; position: relative; text-decoration: none; display:block; padding:10px;
+
+	}
+	
+	header li:hover > ul, header ul li a:hover{
+
+	color: #2F4F4F;
+	background: #9BCD9B;
+	}
+	
+	header li:hover > ul, header ul li ul li:hover{
+	color: #9BCD9B;
+	background: #698B69;
+	}
+	
+	header li:hover > ul, header ul li ul li a:hover{
+	color: #2F4F4F;
+	background: #9BCD9B;
+	}
+
+	
+	
+	header li:hover > ul, header li ul li:hover ul, header li ul li ul li:hover ul, header li.over ul, header li ul li.over ul, header li ul li ul li.over ul{
+display: block;
+}
+	
+	#produtos:hover{
+	position:relative;
+	
+	}
+	
+	#caixaEdicao{
+	border: black solid;
+	font:16px arial;
+	position: absolute;
+	top: 350px;
+	width: 90%;
+	height: 80%;
+	background: #838B8B;
+	
+	
+	}
+	
+	#caixaCompras{
+	position:relative;
+	border: black solid;
+	font:16px Arial;
+	left: 50px;
+	width: 90%;
+	height: 1100px;
+	background: #1C1C1C;
+	color: #FFFFFF;
+	
+	}
+	
+	#caixaCompras button{
+	border-radius: 2px;
+	border-color: #1C1C1C;
+	color: #FFFFFF;
+	background:#2F4F4F;
+	
+	}
+
+main img {
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	
+}
+
+#camposEdicao{
+	position: relative;
+	top: 100px;
+	left: 30px;
+}
+
+#tabelaProdutos {
+	position: relative;
+	top: -150px;
+	
+}
+
+#tabelaProdutos td {
+	position: relative;
+	font-family: arial;
+	padding:20px;
+	width: 350px;
+	height: 200px;
+	
+}
+
+#tabelaProdutos td img{
+	position: relative;
+	top: 0px
+}
+
+#tabelaEdicao{
+	
+	position: relative;
+	top: -80px;
+	left: 250px;
+}
+
+#tabelaEdicao td {
+	font-family: arial;
+	padding:20px;
+	width: 350px;
+	height: 200px;
+}
+
+#comprar{
+	top: -150px;
+	position:relative;
+}
+
